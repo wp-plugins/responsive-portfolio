@@ -234,7 +234,7 @@ function reponsive_portfolio_premium_short_code() {
 	
     <?php endwhile; ?>
     </div>	
-	<p style="font-size:17px">Powered By <a href="http://weblizar.com" style="color:#31a3dd;text-decoration: underline;" target="_new">Weblizar</a></p>
+	<p style="font-size:17px">Responsive Portfolio Powered By <a href="http://weblizar.com" style="color:#31a3dd;text-decoration: underline;" target="_new">Weblizar</a></p>
 	<script type="text/javascript">
 		jQuery('.weblizar-portfolio-gallery a').rebox();
 	</script>	
