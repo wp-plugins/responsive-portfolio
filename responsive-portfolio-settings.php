@@ -131,7 +131,26 @@
         <input type="submit" value="<?php _e("Save Changes", WEBLIZAR_RP_TEXT_DOMAIN); ?>" class="button button-primary" id="submit" name="submit">
     </p>
 </form>
-
+<div class="plan-name" style="margin-top:40px;">
+	<h2 style="border-top: 5px solid #f9f9f9;padding-top: 20px;">Responsive Portfolio Pro</h2>
+</div>
+<div class="purchase_btn_div" style="margin-top:20px;">
+	<a href="http://demo.weblizar.com/responsive-photo-gallery-pro/" target="_new" class="button button-hero">Try Live Demo</a>
+	<a href="http://demo.weblizar.com/responsive-photo-gallery-admin-demo/" target="_new" class="button button-hero">Try Admin Demo</a>
+	<a href="http://weblizar.com/plugins/responsive-photo-gallery-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
+</div>
+<div class="plan-name" style="margin-top:40px;text-align: left;">
+	<h2 style="font-weight: bold;font-size: 36px;padding-top: 30px;padding-bottom: 10px;">Responsive Portflio Pro Screenshot</h2>
+	<h6 style="font-size: 22px;padding-top: 10px;padding-bottom: 10px;">A Perfect Responsive Portfolio Plugin for display content like images, vimeo/youtube video, Albums etc.</h6>
+</div>
+	<!-- SLIDER-INTRO-->
+				<!--===============================================================-->
+				<div class="col-md-12" style="width:90%;display:inline-block">
+					<a href="http://weblizar.com/plugins/responsive-portfolio-pro/" target="_new"><h2 style="font-weight: bold;font-size: 26px;padding-top: 20px;padding-bottom: 20px; text-align:center">Responsive Portfolio Pro Demos</h2>
+					<img class="img-responsive" style="width:100%;border: 1px solid #e3e3e3;background: #f7f7f7;padding:10px" src="<?php echo  WEBLIZAR_RP_PLUGIN_URL.'images/portfolio-pro-detial.png'; ?>" alt=""/>
+					</a>
+				</div>
+				
 	
 
 <?php

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Responsive Portfolio
- * Version: 1.2
+ * Version: 1.3
  *Responsive Portfolio Allow You To Add Unlimited Images To Your Portfolio Integrated With Light Box Preview And Masonry Effect.
 * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -91,6 +91,9 @@ function ResponsivePortfolio_init() {
     add_action('save_post','responsive_portfolio_meta_save');
 	add_meta_box(__('Plugin Shortcode', WEBLIZAR_RP_TEXT_DOMAIN) , __('Plugin Shortcode', WEBLIZAR_RP_TEXT_DOMAIN), 'rp_plugin_shortcode', 'responsive-portfolio', 'side', 'low');
 	add_meta_box(__('Show us some love, Rate Us', WEBLIZAR_RP_TEXT_DOMAIN) , __('Show us some love, Rate Us', WEBLIZAR_RP_TEXT_DOMAIN), 'Rate_us_meta_box_function_portfolio', 'responsive-portfolio', 'side', 'low');
+	 add_meta_box(__('Upgrade To Pro Version', WEBLIZAR_RP_TEXT_DOMAIN) , __('Upgrade To Pro Version', WEBLIZAR_RP_TEXT_DOMAIN), 'wrp_upgrade_to_pro_function', 'responsive-portfolio', 'side', 'low');
+    
+	add_meta_box(__('Pro Features', WEBLIZAR_RP_TEXT_DOMAIN) , __('Pro Features', WEBLIZAR_RP_TEXT_DOMAIN), 'wrp_pro_features', 'responsive-portfolio', 'side', 'low');
 		
 	wp_enqueue_script('theme-preview');
     wp_enqueue_script('rpg-media-uploads',WEBLIZAR_RP_PLUGIN_URL.'js/rpg-media-upload-script.js',array('media-upload','thickbox','jquery'));
@@ -128,7 +131,52 @@ function ResponsivePortfolio_init() {
 		</div>
 		<?php
 	}
+function wrp_upgrade_to_pro_function(){
+?>
+<div class="upgrade-to-pro-demo" style="text-align:center;margin-bottom:10px;margin-top:10px;">
+	<a href="http://demo.weblizar.com/responsive-portfolio-pro/"  target="_new" class="button button-primary button-hero">View Live Demo</a>
+</div>
+<div class="upgrade-to-pro-admin-demo" style="text-align:center;margin-bottom:10px;">
+	<a href="http://weblizar.com/plugins/responsive-portfolio-pro/" target="_new" class="button button-primary button-hero">View Admin Demo</a>
+</div>
+<div class="upgrade-to-pro" style="text-align:center;margin-bottom:10px;">
+	<a href="http://weblizar.com/plugins/responsive-portfolio-pro/" target="_new" class="button button-primary button-hero">Upgarde To Pro</a>
+</div>
+<?php
+}
 
+function wrp_pro_features(){
+	?>
+
+	<ul style="">
+				<li class="plan-feature">Responsive Design</li>
+				<li class="plan-feature">8 Gallery Layout</li>
+				<li class="plan-feature">Unlimited Hover Color</li>
+				<li class="plan-feature">10 Types of Hover Color Opacity</li>
+				<li class="plan-feature">Isotope/Masonry Effects</li>
+				<li class="plan-feature">Album View Gallery</li>
+				<li class="plan-feature">Youtube/Vimeo Video</li>
+				<li class="plan-feature">Extrenal Link Portfolio</li>
+				<li class="plan-feature">Carousel Slider</li>
+				<li class="plan-feature">Gallery Pagination</li>
+				<li class="plan-feature">All Gallery Shortcode</li>
+				<li class="plan-feature">Each Gallery has Unique Shortcode</li>
+				<li class="plan-feature">8 Types of Hover Animation</li>
+				<li class="plan-feature">5 Types of Gallery Design Layout</li>
+				<li class="plan-feature">500+ of Font Style</li>
+				<li class="plan-feature">4 types Of Lightbox Integrated</li>
+				<li class="plan-feature">Drag and Drop image Position</li>
+				<li class="plan-feature">Multiple Image uploader</li>
+				<li class="plan-feature">Shortcode Button on post or page</li>
+				<li class="plan-feature">Unique settings for each gallery</li>
+				<li class="plan-feature">Hide/Show gallery Title and label</li>
+				<li class="plan-feature">Font icon Customization</li>
+				<li class="plan-feature">Google Fonts</li>
+				
+				
+			</ul>
+	<?php 
+} 
 /**
 plugin shortcode
 **/
@@ -316,7 +364,8 @@ add_action('admin_menu' , 'WRP_SettingsPage');
 
 function WRP_SettingsPage() {
     add_submenu_page('edit.php?post_type=responsive-portfolio', __('Settings', WEBLIZAR_RP_TEXT_DOMAIN), __('Settings', WEBLIZAR_RP_TEXT_DOMAIN), 'administrator', 'image-portfolio-settings', 'image_portfolio_settings_page_function');
-   }
+  add_submenu_page('edit.php?post_type=responsive-portfolio', 'Pro Screenshots', 'Pro Screenshots', 'administrator', 'get-responsive-portfolio-pro-plugin', 'get_portfolio_pro_page_function');
+ }
 
 /**
  * Photo Gallery Settings Page
@@ -325,6 +374,16 @@ function image_portfolio_settings_page_function() {
     //css
     wp_enqueue_style('wl-font-awesome-4', WEBLIZAR_RP_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
     require_once("responsive-portfolio-settings.php");
+}
+/**
+ * Get Responsive Portfolio Pro Plugin Page
+ */
+function get_portfolio_pro_page_function() {
+    //css
+    wp_enqueue_style('wl-font-awesome-4', WEBLIZAR_RP_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
+    wp_enqueue_style('wl-pricing-table-css', WEBLIZAR_RP_PLUGIN_URL.'css/pricing-table.css');
+    wp_enqueue_style('wl-boot-strap-admin', WEBLIZAR_RP_PLUGIN_URL.'css/bootstrap-admin.css');
+    require_once("get-responsive-gallery-pro.php");
 }
 
 /**
