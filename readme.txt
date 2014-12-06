@@ -4,7 +4,7 @@ Donate link: http://www.weblizar.com/
 Tags: portfolio, responsive portfolio, album, answer, answers, banner rotator, best gallery, best gallery plugin, best portfolio plugin, carousel, categories, category, content slider, custom, custom fields, dashboard, FAQ, FAQ widget, filterable gallery, filterable portfolio, foto, free gallery, free photo gallery, fullscreen, fullscreen gallery, fullscreen photo, galeri, galerie, Galleria, galleries, gallery, gallery description, gallery lightbox, gallery slider, grid, image, image album, image description, image display, image gallery, image gallery plugin, image lightbox, Image Rotator, image-size, images, images gallery, iphone gallery, jpeg, jpg, jquery gallery, jquery portfolio, labels, lightbox, lightbox photo, list, media, multiple pictures, nextgen, nextgen gallery, page, pages, photo, photo album, photo albums, photo gallery, Photo Slider, photoalbum, photogallery, photography, photos, photoset, picture, Picture Gallery, picture portfolio, pictures, plugin, plugins, png, portfolio, portfolio gallery, portfolios, Post, posts, posts slider, prettyphoto, project, projects, questions, responsive, responsive slider, responsive slideshow, screenshot, screenshots, seo, shortcode, Simple gallery, slide, slide show, slider, slider plugin, slider widget, sliders, slides, slideshow, slideshow manager, slideshow plugin, sortable portfolio, thumbnail, thumbnails, thumbs, view images, visual items, web designer, website gallery, widget, widget gallery, widget portfolio, widget slider, widget slideshow, widgets, wordpress faq, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wordpress portfolio, wordpress portfolio plugin, wordpress slider, wordpress slideshow, wp gallery, wp gallery plugins, wp slider, wordpress portfolio, responsive, image portfolio,
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,7 +100,7 @@ Plugin has extreme Admin dashboard. Plugin settings is very easy and user friend
 
 > ### Try Responsive Portfolio Pro Demo: [Live Demo](http://weblizar.com/plugins/responsive-portfolio-pro/)
 >
-> ### Try Responsive Portfolio Pro Admin: [Admin Demo](http://demo.weblizar.com/responsive-portfolio-admin-demo/)
+> ### Try Responsive Portfolio Pro Admin: [Admin Demo](http://demo.weblizar.com/responsive-portfolio-pro-admin-demo/admin-login/)
 >
 >### Upgrade To: [Responsive Portfolio Pro](http://weblizar.com/plugins/responsive-portfolio-pro/)
 
@@ -131,7 +131,11 @@ plugin or have any question contact us at here: [Plugin Support Forum ](http://w
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
 
-= Version 1.4  27-oct-2014 =
+= Version 1.4.1  06-Dec-2014 =
+
+* Small changes in plugin files
+
+= Version 1.4  06-dec-2014 =
 
 * Update Plugin File
 * Update Bootstarp.css file

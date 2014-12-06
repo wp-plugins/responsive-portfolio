@@ -135,9 +135,9 @@
 	<h2 style="border-top: 5px solid #f9f9f9;padding-top: 20px;">Responsive Portfolio Pro</h2>
 </div>
 <div class="purchase_btn_div" style="margin-top:20px;">
-	<a href="http://demo.weblizar.com/responsive-photo-gallery-pro/" target="_new" class="button button-hero">Try Live Demo</a>
-	<a href="http://demo.weblizar.com/responsive-photo-gallery-admin-demo/" target="_new" class="button button-hero">Try Admin Demo</a>
-	<a href="http://weblizar.com/plugins/responsive-photo-gallery-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
+	<a href="http://demo.weblizar.com/responsive-portfolio-pro" target="_new" class="button button-hero">Try Live Demo</a>
+	<a href="http://demo.weblizar.com/responsive-portfolio-pro-admin-demo/admin-login/" target="_new" class="button button-hero">Try Admin Demo</a>
+	<a href="http://weblizar.com/plugins/responsive-portfolio-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
 </div>
 <div class="plan-name" style="margin-top:40px;text-align: left;">
 	<h2 style="font-weight: bold;font-size: 36px;padding-top: 30px;padding-bottom: 10px;">Responsive Portflio Pro Screenshot</h2>
