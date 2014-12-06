@@ -100,9 +100,10 @@ Plugin has extreme Admin dashboard. Plugin settings is very easy and user friend
 
 > ### Try Responsive Portfolio Pro Demo: [Live Demo](http://weblizar.com/plugins/responsive-portfolio-pro/)
 >
-> ### Try Responsive Photo Gallery Pro Admin: [Admin Demo](http://demo.weblizar.com/responsive-portfolio-admin-demo/)
+> ### Try Responsive Portfolio Pro Admin: [Admin Demo](http://demo.weblizar.com/responsive-portfolio-admin-demo/)
 >
->### Upgrade To: [Responsive Photo Gallery Pro](http://weblizar.com/plugins/responsive-portfolio-pro/)
+>### Upgrade To: [Responsive Portfolio Pro](http://weblizar.com/plugins/responsive-portfolio-pro/)
+
 >
  
 plugin or have any question contact us at here: [Plugin Support Forum ](http://wordpress.org/support/plugin/responsive-portfolio) 
