@@ -18,7 +18,7 @@ Using **[WRP]** shortcode, you can publish image or photo gallery into any Page 
 
 **Free Plugin Demo:** [Responsive Portfolio Free](http://demo.weblizar.com/responsive-portfolio-free/)
 
->
+
 > **Free Plugin Features**
 >
 > * Responsive Gallery
@@ -40,7 +40,7 @@ Using **[WRP]** shortcode, you can publish image or photo gallery into any Page 
 ### Responsive Portfolio Pro Features:
 A Perfect Responsive Portfolio Plugin for WordPress where you are able to create many types of portfolio content like images, vimeo/youtube video, Albums, images with pagination , gallery with carousel slider etc. 
 
->
+
 > * Responsive Gallery
 > * Simple & Very Easy Admin Gallery Dashboard
 > * 10 Types of Loading gallery Animation Effect
@@ -103,6 +103,7 @@ Plugin has extreme Admin dashboard. Plugin settings is very easy and user friend
 > ### Try Responsive Photo Gallery Pro Admin:** [Admin Demo](http://demo.weblizar.com/responsive-portfolio-admin-demo/)
 >
 >### Upgrade To: [Responsive Photo Gallery Pro](http://weblizar.com/plugins/responsive-portfolio-pro/)
+>
  
 plugin or have any question contact us at here:** [Plugin Support Forum ](http://wordpress.org/support/plugin/responsive-portfolio) 
 
