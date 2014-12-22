@@ -104,7 +104,7 @@ Plugin has extreme Admin dashboard. Plugin settings is very easy and user friend
 >
 >### Upgrade To: [Responsive Portfolio Pro](http://weblizar.com/plugins/responsive-portfolio-pro/)
 
->
+
  
 plugin or have any question contact us at here: [Plugin Support Forum ](http://wordpress.org/support/plugin/responsive-portfolio) 
 
@@ -131,7 +131,7 @@ plugin or have any question contact us at here: [Plugin Support Forum ](http://w
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
 
-= Version 1.5  06-Dec-2014 =
+= Version 1.5  22-Dec-2014 =
 
 * Image titles capitalization issue is resolved
 * Add posts_per_page code
