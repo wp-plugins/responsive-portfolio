@@ -103,7 +103,6 @@ function reponsive_portfolio_premium_short_code() {
 		display: block;
 		padding: 10px 0;
 		margin: 40px 20px 20px 20px;
-		text-transform: uppercase;
 		font-weight: normal;
 		text-align:center;
 		color: rgba(255,255,255,0.9);
@@ -145,7 +144,8 @@ function reponsive_portfolio_premium_short_code() {
      */
     $IG_CPT_Name = "responsive-portfolio";
     $IG_Taxonomy_Name = "category";
-    $AllGalleries = array( 'post_type' => $IG_CPT_Name, 'orderby' => 'ASC');
+	$all_posts = wp_count_posts('responsive-portfolio')->publish;
+    $AllGalleries = array('post_type' => $IG_CPT_Name, 'orderby' => 'ASC','posts_per_page' =>$all_posts);
     $loop = new WP_Query( $AllGalleries );
     ?>
     <div  class="gal-container">
