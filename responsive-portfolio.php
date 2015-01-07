@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Responsive Portfolio
- * Version: 1.5
+ * Version: 1.6
  *Responsive Portfolio Allow You To Add Unlimited Images To Your Portfolio Integrated With Light Box Preview And Masonry Effect.
 * Author: Weblizar
  * Author URI: http://www.weblizar.com
