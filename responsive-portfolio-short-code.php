@@ -1,10 +1,12 @@
 <?php
  
 add_shortcode( 'WRP', 'reponsive_portfolio_premium_short_code' );
-function reponsive_portfolio_premium_short_code() {
+function reponsive_portfolio_premium_short_code($Id) {
 	ob_start();
 
-
+	if(!isset($Id['id'])) {
+	$Id['id'] = "";
+	}
     /**
      * Load Responsive Gallery Settings
      */
@@ -12,14 +14,14 @@ function reponsive_portfolio_premium_short_code() {
     if(count($WL_RG_Settings)) {
      
 		
-		 $WL_Hover_Animation     = $WL_RG_Settings['WL_Hover_Animation'];
+		$WL_Hover_Animation     = $WL_RG_Settings['WL_Hover_Animation'];
         $WL_Gallery_Layout      = $WL_RG_Settings['WL_Gallery_Layout'];
         $WL_Image_Border         = $WL_RG_Settings['WL_Image_Border'];
         $WL_Font_Style          = $WL_RG_Settings['WL_Font_Style'];
         $WL_Masonry_Layout     = $WL_RG_Settings['WL_Masonry_Layout'];
 		$WL_Gallery_Title       =  $WL_RG_Settings['WL_Gallery_Title'];
 		$WL_Zoom_Animation 			= $WL_RG_Settings['WL_Zoom_Animation'];
-		 $WL_Hover_Color_Opacity = 0.5;
+		$WL_Hover_Color_Opacity = 0.5;
 		
 		
     } else {
@@ -145,7 +147,7 @@ function reponsive_portfolio_premium_short_code() {
     $IG_CPT_Name = "responsive-portfolio";
     $IG_Taxonomy_Name = "category";
 	$all_posts = wp_count_posts('responsive-portfolio')->publish;
-    $AllGalleries = array('post_type' => $IG_CPT_Name, 'orderby' => 'ASC','posts_per_page' =>$all_posts);
+    $AllGalleries = array('p' => $Id['id'],'post_type' => $IG_CPT_Name, 'orderby' => 'ASC','posts_per_page' =>$all_posts);
     $loop = new WP_Query( $AllGalleries );
     ?>
     <div  class="gal-container">
@@ -153,7 +155,7 @@ function reponsive_portfolio_premium_short_code() {
         <!--get the post id-->
         <?php 
 		
-		 $post_id = get_the_ID(); ?>
+		 $post_id = $Id['id']; ?>
 		
 			<?php if($WL_Gallery_Title==""){ $WL_Gallery_Title == "yes"; } if($WL_Gallery_Title == "yes") { ?>
 			<!-- gallery title-->
@@ -236,7 +238,7 @@ function reponsive_portfolio_premium_short_code() {
     </div>	
 	<p style="font-size:17px">Responsive Portfolio Powered By <a href="http://weblizar.com" style="color:#31a3dd;text-decoration: underline;" target="_new">Weblizar</a></p>
 	<script type="text/javascript">
-		jQuery('.weblizar-portfolio-gallery a').rebox();
+		jQuery('#weblizar-portfolio-grid<?php echo $post_id; ?>').rebox({ selector: 'a' });
 	</script>	
     <?php wp_reset_query(); ?>
     <?php

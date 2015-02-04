@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Responsive Portfolio
- * Version: 1.6
+ * Version: 1.7
  *Responsive Portfolio Allow You To Add Unlimited Images To Your Portfolio Integrated With Light Box Preview And Masonry Effect.
 * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -183,7 +183,7 @@ plugin shortcode
 function rp_plugin_shortcode(){
 ?>
 <p>Use below shortcode in any Page/Post to publish your Responsive Portfolio</p>
-		<input readonly="readonly" type="text" value="<?php echo "[WRP]"; ?>"> 
+		<input readonly="readonly" type="text" value="<?php echo "[WRP id=".get_the_ID()."]"; ?>"> 
 <?php
 } 
 

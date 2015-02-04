@@ -4,7 +4,7 @@ Donate link: http://www.weblizar.com/
 Tags: portfolio, responsive portfolio, album, answer, answers, banner rotator, best gallery, best gallery plugin, best portfolio plugin, carousel, categories, category, content slider, custom, custom fields, dashboard, FAQ, FAQ widget, filterable gallery, filterable portfolio, foto, free gallery, free photo gallery, fullscreen, fullscreen gallery, fullscreen photo, galeri, galerie, Galleria, galleries, gallery, gallery description, gallery lightbox, gallery slider, grid, image, image album, image description, image display, image gallery, image gallery plugin, image lightbox, Image Rotator, image-size, images, images gallery, iphone gallery, jpeg, jpg, jquery gallery, jquery portfolio, labels, lightbox, lightbox photo, list, media, multiple pictures, nextgen, nextgen gallery, page, pages, photo, photo album, photo albums, photo gallery, Photo Slider, photoalbum, photogallery, photography, photos, photoset, picture, Picture Gallery, picture portfolio, pictures, plugin, plugins, png, portfolio, portfolio gallery, portfolios, Post, posts, posts slider, prettyphoto, project, projects, questions, responsive, responsive slider, responsive slideshow, screenshot, screenshots, seo, shortcode, Simple gallery, slide, slide show, slider, slider plugin, slider widget, sliders, slides, slideshow, slideshow manager, slideshow plugin, sortable portfolio, thumbnail, thumbnails, thumbs, view images, visual items, web designer, website gallery, widget, widget gallery, widget portfolio, widget slider, widget slideshow, widgets, wordpress faq, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wordpress portfolio, wordpress portfolio plugin, wordpress slider, wordpress slideshow, wp gallery, wp gallery plugins, wp slider, wordpress portfolio, responsive, image portfolio,
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,8 @@ Using **[WRP]** shortcode, you can publish image or photo gallery into any Page 
 > * All Device Support 
 > * All Browser Support
 > * Powerful and stylish setting panel
-
+> * Lightbox with Sideshow feature
+> * Multiple Shortcode feature
 
 ### Responsive Portfolio Pro Features:
 A Perfect Responsive Portfolio Plugin for WordPress where you are able to create many types of portfolio content like images, vimeo/youtube video, Albums, images with pagination , gallery with carousel slider etc. 
@@ -131,6 +132,10 @@ plugin or have any question contact us at here: [Plugin Support Forum ](http://w
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
 
+= Version 1.7  04-Feb-2014 =
+
+* Add Multiple shortcode feature for display portfolio on multiple page
+* Add Sideshow feature in lightbox
 
 = Version 1.6  07-Jan-2014 =
 
