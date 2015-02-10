@@ -155,7 +155,8 @@ function reponsive_portfolio_premium_short_code($Id) {
         <!--get the post id-->
         <?php 
 		
-		 $post_id = $Id['id']; ?>
+		 $post_id = $Id['id']; 
+		 ?>
 		
 			<?php if($WL_Gallery_Title==""){ $WL_Gallery_Title == "yes"; } if($WL_Gallery_Title == "yes") { ?>
 			<!-- gallery title-->
@@ -196,12 +197,8 @@ function reponsive_portfolio_premium_short_code($Id) {
 							</div>
 						</div>
 					
-					
-                       
-						
-                    </div>
+					</div>
                 </li>
-					
 					
 					<?php
 					$i++;
@@ -213,7 +210,6 @@ function reponsive_portfolio_premium_short_code($Id) {
 	
 	<script type="text/javascript">
 		
-	
 		jQuery(function() {
 			jQuery(' #da-thumbs > .weblizar-portfolio-gallery ').each( function() { jQuery(this).hoverdir_top({
 					hoverDelay : 150,
@@ -224,7 +220,7 @@ function reponsive_portfolio_premium_short_code($Id) {
 
 			
 			
-		</script>
+	</script>
 	<script>
 			new AnimOnScroll( document.getElementById( 'weblizar-portfolio-grid<?php echo $post_id; ?>' ), {
 				minDuration : 0.4,
@@ -237,11 +233,8 @@ function reponsive_portfolio_premium_short_code($Id) {
     <?php endwhile; ?>
     </div>	
 	<p style="font-size:17px">Responsive Portfolio Powered By <a href="http://weblizar.com" style="color:#31a3dd;text-decoration: underline;" target="_new">Weblizar</a></p>
-	<script type="text/javascript">
-		jQuery('#weblizar-portfolio-grid<?php echo $post_id; ?>').rebox({ selector: 'a' });
-	</script>	
-    <?php wp_reset_query(); ?>
-    <?php
+		
+    <?php wp_reset_query(); 
 	return ob_get_clean();
 }
 ?>
