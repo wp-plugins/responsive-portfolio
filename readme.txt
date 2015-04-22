@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: portfolio, responsive portfolio, album, answer, answers, banner rotator, best gallery, best gallery plugin, best portfolio plugin, carousel, categories, category, content slider, custom, custom fields, dashboard, FAQ, FAQ widget, filterable gallery, filterable portfolio, foto, free gallery, free photo gallery, fullscreen, fullscreen gallery, fullscreen photo, galeri, galerie, Galleria, galleries, gallery, gallery description, gallery lightbox, gallery slider, grid, image, image album, image description, image display, image gallery, image gallery plugin, image lightbox, Image Rotator, image-size, images, images gallery, iphone gallery, jpeg, jpg, jquery gallery, jquery portfolio, labels, lightbox, lightbox photo, list, media, multiple pictures, nextgen, nextgen gallery, page, pages, photo, photo album, photo albums, photo gallery, Photo Slider, photoalbum, photogallery, photography, photos, photoset, picture, Picture Gallery, picture portfolio, pictures, plugin, plugins, png, portfolio, portfolio gallery, portfolios, Post, posts, posts slider, prettyphoto, project, projects, questions, responsive, responsive slider, responsive slideshow, screenshot, screenshots, seo, shortcode, Simple gallery, slide, slide show, slider, slider plugin, slider widget, sliders, slides, slideshow, slideshow manager, slideshow plugin, sortable portfolio, thumbnail, thumbnails, thumbs, view images, visual items, web designer, website gallery, widget, widget gallery, widget portfolio, widget slider, widget slideshow, widgets, wordpress faq, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wordpress portfolio, wordpress portfolio plugin, wordpress slider, wordpress slideshow, wp gallery, wp gallery plugins, wp slider, wordpress portfolio, responsive, image portfolio,
 Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 1.9
+Tested up to: 4.2
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,10 @@ plugin or have any question contact us at here: [Plugin Support Forum ](http://w
 == Changelog ==
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
+
+= Version 2.0  21-April-2015 =
+
+* Compatible with WordPress 4.2 version
 
 = Version 1.9  26-Mar-2015 =
 
