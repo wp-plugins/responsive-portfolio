@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: add gallery, add image, add images, add photo, add picture, add pictures, album, art gallery, banner rotator, best gallery, best gallery plugin, content gallery, content slider, easy gallery, filterable gallery, foto, fotoalbum, fotogalerie, free gallery, free images, free photo gallery, free slider, fullscreen gallery, fullscreen slider, galeri, galeria, galerie, galery, Galleria, galleries, gallery, gallery decription, gallery image, gallery lightbox, Gallery Plugin, gallery shortcode, gallery slider, gallery wordpress, gelary, grid, grid gallery, image, image album, image gallery, image gallery plugin, Image Rotator, image slider, images, images gallery, iphone gallery, jquery gallery, justified, justified gallery, lightbox gallery, Lightbox slider, media gallery, multiple pictures, photo album, photo albums, photo gallery, photoalbum, photogallery, photography, photoset, Picture Gallery, plugin gallery, Post, posts, responsive, responsive galleries, responsive gallery, responsive wordpress photo gallery, revolution, shortcode gallery, Simple gallery, slide, slideshow, slideshow gallery, thumbnail view, thumbs, video gallery, vimeo gallery, website gallery, widget gallery, wordpress gallery, wordpress gallery plugin, wordpress photo gallery plugin, wp gallery, wp gallery plugins, youtube gallery, , css3 animation, masonry gallery, link gallery, external link, social gallery, seo gallery, portfolio, portfolio gallery, responsive portfolio
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 2.0
+Tested up to: 4.3.1
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -131,6 +131,16 @@ plugin or have any question contact us at here: [Plugin Support Forum ](http://w
 == Changelog ==
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
+
+= Version 2.2  03-Oct-2015 =
+
+* Compatible with wordpress 4.3.1
+* Small bug resolved
+
+= Version 2.1  01-Sep-2015 =
+
+* Small Update in css file
+
 
 = Version 2.0  21-April-2015 =
 
